@@ -43,7 +43,7 @@ Suite 120, Rockville, Maryland 20850 USA.
 #endif
 
 // surface geometry should not exceed these limits
-#define	SHADER_MAX_VERTEXES	1201 // 1200 + 1 buffer for RB_EndSurface overflow check
+#define	SHADER_MAX_VERTEXES	8193 // 1200 + 1 buffer for RB_EndSurface overflow check
 #define	SHADER_MAX_INDEXES	(6*SHADER_MAX_VERTEXES)
 #define	SHADER_MAX_TRIANGLES	(SHADER_MAX_INDEXES/3)
 
